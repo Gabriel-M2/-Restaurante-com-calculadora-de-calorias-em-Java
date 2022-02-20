@@ -25,13 +25,6 @@ public class Aula_7e8 extends JPanel {
     public void inicializar() {
         setLayout(null);
 
-//        grpLanches.add(rbtCachorroQuente);
-//        grpLanches.add(rbtMistoQuente);
-//        grpLanches.add(rbtXSalada);
-//        grpLanches.add(rbtXBurguer);
-
-        //-----------------------------------------------------
-//        setBackground(Color.white);
         btnSair = new JButton("SAIR");
         btnSair.setBounds(757,419,122,33);
         add(btnSair);
@@ -210,7 +203,7 @@ public class Aula_7e8 extends JPanel {
         frame.setResizable(false);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
-//        frame.setBackground(new Color(0x1B1A19));
+
 
 
     }
